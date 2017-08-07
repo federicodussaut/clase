@@ -1,0 +1,53 @@
+body{
+  background-image: url(../image/dark-wood.jpg);
+  background-attachment: fixed;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+}
+
+.negrita{
+  font-weight: bold;
+}
+ul{
+
+}
+
+h1{
+  background-color: rgba(75, 149, 81, 0.5);
+  text-align: center;
+}
+
+p.destacado{
+  background-color: rgba(245, 192, 0, 0.7);
+color: rgba(54, 0, 92, 1);
+font-size: 22px;
+}
+em{
+  font-size: 20px;
+  font-family: monospace;
+}
+strong{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+mark{
+  background-color: darkblue;
+  color: white;
+}
+
+textarea{
+  background-color: pink;
+  resize: vertical;
+}
+textarea:focus {
+  background: yellow;
+}
+a:hover{
+  color: orange;
+  font-weight: bolder;
+}
+img:hover{
+  border-radius:20px;
+}

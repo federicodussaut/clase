@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>CV Federico Dussaut</title>
+</head>
+<body>
+	<h1 class="Titulo"><strong> Formulario de Consultas</strong></h1>
+	<br>
+	<h2><em><a href="index.html"> Index</em></a></h2>
+	<h2><em><a href="hobbies.html"> Hobbies</em></a></h2>
+<form class="Formulario" action="formulario.html" method="get">
+	<!--Nombre y apellido
+■ Correo electrónico
+■ Asunto del mensaje (combobox desplegable con opciones a gusto)
+■ Género (radio-button para femenino, masculino, no responde)
+■ Pasatiempos (checkboxes. Cómo mínimo 5 a elección)
+■ Comentarios
+■ Botones enviar / borrar -->
+
+<label for="name">Nombre:</label>
+<input id="name" type="text" name="" placeholder="Nombre" required>
+
+<label for="apellido">Apellido:</label>
+<input id="apellido" type="text" name="" placeholder="Apellido" required>
+<br><br>
+
+<label for="asunto">Asunto</label>
+<select id="asunto" class="" name="">
+	<option value="CON">Contacto</option>
+	<option value="COM">Comprar</option>
+	<option value="TUR">Turno</option>
+	<option value="OPI">Opinion</option>
+	<option value="QUE">Queja</option>
+</select>
+<br><br>
+
+<label for="genero">Genero</label>
+<input id="genero" type="radio" name="sexo" value="M">M
+<input id="genero" type="radio" name="sexo" value="F">F
+<input id="genero" type="radio" name="sexo" value="N" required>N/C
+<br><br>
+
+<label for="hobbies">Hobbies:</label>
+<input type="checkbox" name="hobbies" value="">Deporte
+<input type="checkbox" name="hobbies" value="">Musica
+<input type="checkbox" name="hobbies" value="">Cine
+<input type="checkbox" name="hobbies" value="">Teatro
+<input type="checkbox" name="hobbies" value="">Television
+<input type="checkbox" name="hobbies" value="">Libros
+<br><br>
+
+<label for="comentarios">Comentarios:</label>
+<br>
+<textarea name="comentarios" rows="6" cols="80">
+</textarea>
+<br><br>
+
+<button type="submit">ENVIAR
+	<img src="image/donut.png" alt="" width="30px">
+</button>
+<br>
+
+
+
+</form>
+
+</body>
+</html>
