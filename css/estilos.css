@@ -41,7 +41,7 @@ textarea{
   background-color: pink;
   resize: vertical;
 }
-textarea:focus {
+input:focus {
   background: yellow;
 }
 a:hover{
@@ -50,4 +50,7 @@ a:hover{
 }
 img:hover{
   border-radius:20px;
+}
+textarea:focus{
+  background-color: red;
 }
